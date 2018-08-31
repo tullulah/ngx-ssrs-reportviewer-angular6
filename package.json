@@ -1,32 +1,32 @@
 {
-  "_from": "git+https://github.com/tullulah/ngx-srss-reportviewer.git",
-  "_id": "ngx-ssrs-reportviewer@1.0.2",
+  "_from": "git+https://github.com/tullulah/ngx-ssrs-reportviewer-angular6.git",
+  "_id": "ngx-ssrs-reportviewer-angular6@1.0.4",
   "_inBundle": false,
   "_integrity": "",
-  "_location": "/ngx-ssrs-reportviewer",
+  "_location": "/ngx-ssrs-reportviewer-angular6",
   "_phantomChildren": {
     "tslib": "1.9.3"
   },
   "_requested": {
     "type": "git",
-    "raw": "git+https://github.com/tullulah/ngx-srss-reportviewer",
-    "rawSpec": "git+https://github.com/tullulah/ngx-srss-reportviewer",
-    "saveSpec": "git+https://github.com/tullulah/ngx-srss-reportviewer.git",
-    "fetchSpec": "https://github.com/tullulah/ngx-srss-reportviewer.git",
+    "raw": "git+https://github.com/tullulah/ngx-ssrs-reportviewer-angular6",
+    "rawSpec": "git+https://github.com/tullulah/ngx-ssrs-reportviewer-angular6",
+    "saveSpec": "git+https://github.com/tullulah/ngx-ssrs-reportviewer-angular6.git",
+    "fetchSpec": "https://github.com/tullulah/ngx-ssrs-reportviewer-angular6.git",
     "gitCommittish": null
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "git+https://github.com/tullulah/ngx-srss-reportviewer.git#0ccd01da07ad0b544002a00317db5cee8530f47f",
-  "_spec": "git+https://github.com/tullulah/ngx-srss-reportviewer",
+  "_resolved": "git+https://github.com/tullulah/ngx-ssrs-reportviewer-angular6.git#0ccd01da07ad0b544002a00317db5cee8530f47f",
+  "_spec": "git+https://github.com/tullulah/ngx-ssrs-reportviewer-angular6",
   "_where": "C:\\Projects\\somintec_bitbucket\\frontend",
   "author": {
-    "name": "Tyler Como"
+    "name": "Tullulah"
   },
   "bugs": {
-    "url": "https://github.com/tullulah/ngx-ssrs-reportviewer/issues"
+    "url": "https://github.com/tullulah/ngx-ssrs-reportviewer-angular6/issues"
   },
   "bundleDependencies": false,
   "dependencies": {
@@ -69,13 +69,13 @@
     "tslint": "^5.11.0",
     "typescript": "~2.7.2"
   },
-  "homepage": "https://github.com/tullulah/ngx-ssrs-reportviewer#readme",
+  "homepage": "https://github.com/tullulah/ngx-ssrs-reportviewer-angular6#readme",
   "license": "MIT",
-  "name": "ngx-ssrs-reportviewer",
+  "name": "ngx-ssrs-reportviewer-angular6",
   "private": false,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tullulah/ngx-ssrs-reportviewer.git"
+    "url": "git+https://github.com/tullulah/ngx-ssrs-reportviewer-angular6.git"
   },
   "scripts": {
     "build": "ng build",
