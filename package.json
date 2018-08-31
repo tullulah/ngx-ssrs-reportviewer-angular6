@@ -4,11 +4,13 @@
   "_inBundle": false,
   "_integrity": "",
   "_location": "/ngx-ssrs-reportviewer",
-  "_phantomChildren": {},
+  "_phantomChildren": {
+    "tslib": "1.9.3"
+  },
   "_requested": {
     "type": "git",
-    "raw": "git+https://github.com/tullulah/ngx-srss-reportviewer.git",
-    "rawSpec": "git+https://github.com/tullulah/ngx-srss-reportviewer.git",
+    "raw": "git+https://github.com/tullulah/ngx-srss-reportviewer",
+    "rawSpec": "git+https://github.com/tullulah/ngx-srss-reportviewer",
     "saveSpec": "git+https://github.com/tullulah/ngx-srss-reportviewer.git",
     "fetchSpec": "https://github.com/tullulah/ngx-srss-reportviewer.git",
     "gitCommittish": null
@@ -17,9 +19,9 @@
     "#USER",
     "/"
   ],
-  "_resolved": "git+https://github.com/tullulah/ngx-srss-reportviewer.git#52bc0cbae0eb4e29c2d4669eac40bbd548c35cd2",
-  "_spec": "git+https://github.com/tullulah/ngx-srss-reportviewer.git",
-  "_where": "C:\\Projects\\test",
+  "_resolved": "git+https://github.com/tullulah/ngx-srss-reportviewer.git#0ccd01da07ad0b544002a00317db5cee8530f47f",
+  "_spec": "git+https://github.com/tullulah/ngx-srss-reportviewer",
+  "_where": "C:\\Projects\\somintec_bitbucket\\frontend",
   "author": {
     "name": "Tyler Como"
   },
@@ -45,6 +47,7 @@
   "deprecated": false,
   "description": "Angular 2+ component for rendering SSRS reports",
   "devDependencies": {
+    "@angular-devkit/build-angular": "~0.7.0",
     "@angular/cli": "^6.1.2",
     "@angular/compiler-cli": "^6.0.0",
     "@angular/language-service": "^6.0.0",
