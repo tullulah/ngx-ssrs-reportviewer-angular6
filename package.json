@@ -39,6 +39,7 @@
     "@angular/platform-browser": "^6.0.0",
     "@angular/platform-browser-dynamic": "^6.0.0",
     "@angular/router": "^6.0.0",
+    "build-bundle": "^2.0.8",
     "core-js": "^2.4.1",
     "material-design-lite": "^1.3.0",
     "rxjs": "^6.3.0",
@@ -71,6 +72,7 @@
   },
   "homepage": "https://github.com/tullulah/ngx-ssrs-reportviewer-angular6#readme",
   "license": "MIT",
+  "module": "ngx-ssrs-reportviewer/ngx-ssrs-reportviewer.es5.js",
   "name": "ngx-ssrs-reportviewer-angular6",
   "private": false,
   "repository": {
