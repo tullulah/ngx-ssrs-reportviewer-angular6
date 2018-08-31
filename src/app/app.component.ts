@@ -8,20 +8,21 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
-  reportServer: string = 'http://reportserver/reportserver';
-  reportUrl: string = 'Departments/General Reports/SampleWithParameters';
-  showParameters: string = "false"; //true, false, collapsed
+  reportServer = 'http://reportserver/reportserver';
+  reportUrl = 'Departments/General Reports/SampleWithParameters';
+  showParameters = 'false'; // true, false, collapsed
   parameters: any = {
-    "SampleStringParameter": "String",
-    "SampleBooleanParameter": false,
-    "SampleDateTimeParameter": "10/1/2017",
-    "SampleIntParameter": 12345,
-    "SampleFloatParameter": "123.1234",
-    "SampleMultipleStringParameter": ["Parameter1", "Parameter2"]
+    'SampleStringParameter': 'String',
+    'SampleBooleanParameter': false,
+    'SampleDateTimeParameter': '10/1/2017',
+    'SampleIntParameter': 12345,
+    'SampleFloatParameter': '123.1234',
+    'SampleMultipleStringParameter': ['Parameter1', 'Parameter2']
   };
-  language: string = "en-us";
-  width: number = 50;
-  height: number = 50;
-  toolbar: string = "false";
+  language = 'en-us';
+  width = 50;
+  height = 50;
+  toolbar = 'false';
+  error = null;
 }
 
