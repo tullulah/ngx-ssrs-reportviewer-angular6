@@ -6,7 +6,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tycomo/ngx-ssrs-reportviewer"
+    "url": "https://github.com/tullulah/ngx-ssrs-reportviewer"
   },
   "scripts": {
     "ng": "ng",
