@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ngx-ssrs-reportviewer": {
+    "ngx-ssrs-reportviewer-angular6": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -51,18 +51,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "ngx-ssrs-reportviewer:build"
+            "browserTarget": "ngx-ssrs-reportviewer-angular6:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "ngx-ssrs-reportviewer:build:production"
+              "browserTarget": "ngx-ssrs-reportviewer-angular6:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ngx-ssrs-reportviewer:build"
+            "browserTarget": "ngx-ssrs-reportviewer-angular6:build"
           }
         },
         "test": {
@@ -97,7 +97,7 @@
         }
       }
     },
-    "ngx-ssrs-reportviewer-e2e": {
+    "ngx-ssrs-reportviewer-angular6-e2e": {
       "root": "e2e",
       "sourceRoot": "e2e",
       "projectType": "application",
@@ -106,7 +106,7 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "./protractor.conf.js",
-            "devServerTarget": "ngx-ssrs-reportviewer:serve"
+            "devServerTarget": "ngx-ssrs-reportviewer-angular6:serve"
           }
         },
         "lint": {
@@ -121,7 +121,7 @@
       }
     }
   },
-  "defaultProject": "ngx-ssrs-reportviewer",
+  "defaultProject": "ngx-ssrs-reportviewer-angular6",
   "schematics": {
     "@schematics/angular:component": {
       "prefix": "ssrs",
