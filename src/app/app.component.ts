@@ -20,8 +20,8 @@ export class AppComponent {
     'SampleMultipleStringParameter': ['Parameter1', 'Parameter2']
   };
   language = 'en-us';
-  width = 100;
-  height = 100;
+  width = 50;
+  height = 50;
   toolbar = 'false';
   error = null;
 }
