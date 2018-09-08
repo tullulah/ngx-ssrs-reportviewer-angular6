@@ -81,7 +81,5 @@ export class ReportViewerComponent implements OnChanges {
       + '&rc:Parameters=' + this.showparameters
       + parameters
       + '&rs:ParameterLanguage=' + this.language + "&rc:Toolbar=" + this.toolbar;
-
-     
   }
 }
