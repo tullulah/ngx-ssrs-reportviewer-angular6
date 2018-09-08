@@ -43,7 +43,7 @@ export class ReportViewerComponent implements OnChanges {
     }
 
     if ('reporturl' in changes) {
-      //this.source = this.sanitizer.bypassSecurityTrustResourceUrl(this.buildReportUrl());
+      // this.source = this.sanitizer.bypassSecurityTrustResourceUrl(this.buildReportUrl());
 
       this.get(this.buildReportUrl(), null).subscribe(data => this.iframe.nativeElement.src = data);
     }
